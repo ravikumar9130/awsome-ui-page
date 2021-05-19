@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.con{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to right,#5cc8fdc9, #914efcdc);
+    position: relative;
+    
+    
+}
+.login{
+    position: absolute;
+    width: 76%;
+    height: 76%;
+    background: #ffffff;
+    top: 12%;
+    left: 12%;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+   
+
+}
+.image-container{
+    width: 37vw;
+    height: 76vh;
+    position: relative;
+    
+}
+.vector-image{
+    position:absolute;
+    top:7%;
+    left:10%;
+    width:460px ;
+    height:390px;
+}
+.form-container{
+    position: relative;
+    padding: 30px 50px;
+    top:20px;
+    left: 70px;
+    width: 35vw;
+    height: 76vh;
+    
+}
+h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+.forms{
+    padding-top:20px;
+}
+h4 {
+    display: flex;
+    flex-direction: row;
+    font-weight: 200;
+    font-size: 12px;
+}
+h4:before, h4:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid rgb(83, 83, 83);
+    margin: auto;
+}
+label{
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.input-form{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 7px;
+    color: black;
+   
+    width: 25vw;
+    margin-top: 10px;
+}
+
+.input-form:active{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 7px;
+    color: black;
+   
+    width: 25vw;
+    margin-top: 10px;
+}
+
+input[type=email]{
+    color: black;
+    background: #5c8dee2c;
+}
+input[type=password]{
+    color: black;
+    background: #ff63633f;
+}
+  input[type=email]::placeholder {
+    color: #0c0909;
+    
+  }
+  input[type=password]::placeholder {
+    color: #ff5252;
+    
+  }
+  .anchor{
+    padding-left: 11.6rem;
+    font-weight: 100;
+    font-size: 12px;
+  }
+  a{
+      text-decoration: none;
+      color: #076aff;
+      font-family: 'Times New Roman', Times, serif;
+  }
+.btn{
+    padding: 6px 20px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 3px;
+   background: #0066ff;
+    font-weight: 500;
+    color: white;
+
+}
+.icons{
+    display: flex;
+   margin:20px auto;
+   justify-content: space-around;
+   width:18vw;
+}
+p{
+    font-size: 14px;
+    
+}
+p >span{
+    color:#0066ff;
+}
+
+@media only screen and (max-width: 800px) {
+    .image-container{
+     display: none;
+    }
+    .input-form{
+        padding: 8px 15px;
+        border: none;
+        border-radius: 7px;
+        color: black;
+       width: 300px;
+        margin-top: 10px;
+    }
+    
+.form-container{
+    position: relative;
+    padding: 30px 50px;
+    top:15px;
+    left:5px;
+    width: 35vw;
+    height: 76vh;
+    
+}
+h4 {
+    display: none;
+   
+}
+
+ 
+    input[type=email]{
+        color: black;
+        background: #5c8dee2c;
+    }
+    input[type=password]{
+        color: black;
+        background: #ff63633f;
+    }
+      input[type=email]::placeholder {
+        color: #0c0909;
+        
+      }
+      input[type=password]::placeholder {
+        color: #ff5252;
+        
+      }
+      
+      a{
+          text-decoration: none;
+          color: #076aff;
+      display: none;
+         
+      }
+    .btn{
+        padding: 8px 30px;
+        margin: 10px 100px;
+        border: none;
+        border-radius: 3px;
+       background: #0066ff;
+        font-weight: 600;
+        color: white;
+      width: 100px;
+    
+    }
+    .icons{
+        display: flex;
+       margin:20px 30px;
+       justify-content: space-around;
+       width:50vw;
+    }
+    p{
+        width: 300px;
+    }
+  }
+  @media only screen and (max-width: 1100px){
+   
+    .vector-image{
+        position:absolute;
+        top:7%;
+        left:10%;
+        width:320px ;
+        height:390px;
+    } a{
+        text-decoration: none;
+        color: #076aff;
+    display: none;
+       
+    }
+    .input-form{
+        padding: 8px 15px;
+        border: none;
+        border-radius: 7px;
+        color: black;
+       width: 250px;
+        margin-top: 10px;
+    }.form-container{
+        position: relative;
+        padding: 30px 50px;
+        top:15px;
+        left:5px;
+       
+        
+    }
+  }
